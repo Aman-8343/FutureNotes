@@ -15,6 +15,8 @@ const PrivateRoute = ({ children }) => {
 function App() {
     return (
         <div className="App">
+
+            <h1 className='bg-blue-400'>Time Capsule - Your Future messages </h1>
             <Routes>
                 
                 <Route path="/login" element={<Login />} />
