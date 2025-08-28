@@ -73,6 +73,10 @@ const Dashboard = () => {
                                 Create Your First Capsule
                             </Link>
                         </div>
+<div className="mt-4 text-sm text-gray-400">
+    Time Capsule is a platform to send messages and files to your future self. Create a capsule, set an unlock date, and let your future self relive your memories!
+    </div>
+
                     </div>
                 )}
             </main>
