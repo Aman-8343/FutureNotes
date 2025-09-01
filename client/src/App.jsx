@@ -7,6 +7,7 @@ import CreateCapsule from './pages/CreateCapsule';
 import './App.css';
 
 
+
 const PrivateRoute = ({ children }) => {
     const token = localStorage.getItem('token');
     return token ? children : <Navigate to="/login" />;  
@@ -35,6 +36,7 @@ function App() {
                
                 <Route path="/" element={<Navigate to="/dashboard" />} />
             </Routes>
+            
         </div>
     );
 }
